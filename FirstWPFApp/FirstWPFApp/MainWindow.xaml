@@ -1,0 +1,38 @@
+﻿<Window x:Class="FirstWPFApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:ViewModel="clr-namespace:FirstWPFApp.ViewModel"
+        mc:Ignorable="d"
+        Title="FirstWindow" Height="450" Width="600">
+    <Window.DataContext>
+        <ViewModel:Agent/>
+    </Window.DataContext>
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+        </Grid.ColumnDefinitions>
+        
+    <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left" Grid.Column="0">
+        <TextBlock FontSize="48">Enter Details!</TextBlock>
+        
+        <TextBlock Margin="5">First Name: </TextBlock>
+            <TextBox x:Name="fn"  Margin="5" Text="{Binding Fname}"/>
+
+        <TextBlock Margin="5">Last Name:</TextBlock>
+            <TextBox Margin="5" Text="{Binding Lname}"/>
+
+        <TextBlock Margin="5" Text="Age"/>
+            <TextBox Margin="5" Text="{Binding Age, UpdateSourceTrigger=PropertyChanged}"/>
+    </StackPanel>
+
+    <StackPanel VerticalAlignment="Top" HorizontalAlignment="Right" Grid.Column="1" Margin="50,0">
+            <TextBlock FontSize="38">Verdict :-</TextBlock>
+            <Label Content="{Binding Info, Mode=OneWay}"/>
+    </StackPanel>
+    </Grid>
+
+</Window>

@@ -1,0 +1,15 @@
+C:\Users\nitish\source\repos\ICommandFirst\ICommandFirst\bin\Debug\ICommandFirst.exe.config
+C:\Users\nitish\source\repos\ICommandFirst\ICommandFirst\bin\Debug\ICommandFirst.exe
+C:\Users\nitish\source\repos\ICommandFirst\ICommandFirst\bin\Debug\ICommandFirst.pdb
+C:\Users\nitish\source\repos\ICommandFirst\ICommandFirst\obj\Debug\ICommandFirst.csprojAssemblyReference.cache
+C:\Users\nitish\source\repos\ICommandFirst\ICommandFirst\obj\Debug\MainWindow.g.cs
+C:\Users\nitish\source\repos\ICommandFirst\ICommandFirst\obj\Debug\App.g.cs
+C:\Users\nitish\source\repos\ICommandFirst\ICommandFirst\obj\Debug\ICommandFirst_MarkupCompile.cache
+C:\Users\nitish\source\repos\ICommandFirst\ICommandFirst\obj\Debug\ICommandFirst_MarkupCompile.lref
+C:\Users\nitish\source\repos\ICommandFirst\ICommandFirst\obj\Debug\MainWindow.baml
+C:\Users\nitish\source\repos\ICommandFirst\ICommandFirst\obj\Debug\ICommandFirst.g.resources
+C:\Users\nitish\source\repos\ICommandFirst\ICommandFirst\obj\Debug\ICommandFirst.Properties.Resources.resources
+C:\Users\nitish\source\repos\ICommandFirst\ICommandFirst\obj\Debug\ICommandFirst.csproj.GenerateResource.cache
+C:\Users\nitish\source\repos\ICommandFirst\ICommandFirst\obj\Debug\ICommandFirst.exe
+C:\Users\nitish\source\repos\ICommandFirst\ICommandFirst\obj\Debug\ICommandFirst.pdb
+C:\Users\nitish\source\repos\ICommandFirst\ICommandFirst\obj\Debug\GeneratedInternalTypeHelper.g.cs
